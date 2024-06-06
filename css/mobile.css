@@ -1,0 +1,275 @@
+@media (max-width: 450px) {
+
+    .wrapper {
+        max-width: 430px;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .text__nav_mobile {
+        display: flex;
+        justify-content: right;
+        margin-right: 20px;
+        padding-top: 20px;
+    }
+
+    .header__title_mobile {
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+        margin-top: 120px;
+        letter-spacing: 1px;
+        color: #E4D8CC;
+    }
+
+    .header__text_mobile {
+        font-size: 10px;
+        color: #E4D8CC;
+        display: flex;
+        justify-content: center;
+        margin-top: 5px;
+    }
+    
+    .button__bonus {
+        border-radius: 100px;
+        padding: 0;
+        padding-bottom: 5px;
+        margin-top: 30px;
+    }
+    
+    .button__bonus a {
+        padding: 0px 15px;
+        font-size: 8px;
+    }
+
+    .button__faq {
+        padding: 0 15px;
+        padding-bottom: 5px;
+        margin-left: 5px;
+        margin-bottom: 20px;
+    }
+    
+    .button__faq a {
+        font-size: 8px;
+    }
+
+    ion-icon {
+        color: #e4d8cc;
+        font-size: 20px;
+    }
+
+    .main__title_bonus {
+        font-size: 32px;
+    }
+
+    .main__text_bonus {
+        font-size: 10.8px;
+    }
+    
+    .main__image_bonus img{
+        width: 60vw;
+    }
+
+    .main__row {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .main__title {
+        font-size: 14px;
+    }
+
+    .main__text {
+        font-size: 22px;
+    }
+
+    .main__undertext {
+        font-size: 8.3px;
+    }
+
+    .main__image img {
+        width: 50vw;
+        height: 50vw;
+    }
+    
+    .first {
+        font-size: 12px;
+        padding: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .second {
+        font-size: 12px;
+        padding: 10px;
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+
+    .third {
+        font-size: 12px;
+        padding: 10px;
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+
+    .footer__comments_column {
+        margin-top: 0px;
+    }
+
+    .footer__comments__image img {
+        height: 5vw;
+        width: 5vw;
+    }
+
+    .footer__comment {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    .footer__card {
+        margin: 0 auto;
+        margin-top: 20px;
+        font-size: 10px;
+    }
+
+    .footer__card_image {
+        margin-top: 5px;
+    }
+    
+    .footer__card_image img {
+        height: 10vw;
+        width: 10vw;
+    }
+
+    .forbes {
+        margin-bottom: 40px;
+    }
+
+    .forbes img {
+        height: 7.5vw;
+        width: 20vw;
+    }
+
+    .footer__faq__title {
+        margin: 0 auto;
+        font-size: 26px;
+        margin-bottom: 30px;
+        padding-top: 100px;
+    }
+
+    .footer__faq__list ul {
+        margin: 0 auto;
+    }
+
+    .footer__faq__list ul li a {
+        font-size: 12px;
+    }
+
+    .mission__title {
+        font-size: 12px;
+        margin: 0 auto;
+        margin-left: 20px;
+    }
+
+    .mission__text {
+        font-size: 26px;
+        margin: 0 auto;
+        margin-left: 20px;
+    }
+
+    .mission__about {
+        font-size: 10px;
+        margin: 0 auto;
+        margin-left: 20px;
+    }
+
+    .footer__info {
+        margin: 0 auto;
+    }
+
+    .footer__contacts {
+        flex-direction: column;
+    }
+
+    .footer__contacts__column {
+        display: flex;
+        justify-content: center;
+    }
+
+    .contacts__title {
+        margin: 0 auto;
+        font-size: 18px;
+    }
+
+    .button__bonus__offer {
+        margin: 0 auto;
+        padding: 5px 0px;
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+    
+    .button__bonus__offer a {
+        padding: 0px 15px;
+        padding-bottom: 5px;
+        font-size: 12px;
+    }
+
+    .contacts__button {
+        margin: 0 auto;
+    }
+
+    .button__mail {
+        margin: 0 auto;
+        padding: 5px 0px;
+        margin-top: 15px;
+        margin-bottom: 100px;
+    }
+    
+    .button__mail a {
+        padding: 0px 15px;
+        padding-bottom: 5px;
+        font-size: 12px;
+    }
+
+
+    .contacts__row {
+        margin: 0 auto;
+        flex-direction: column;
+    }
+
+    .contacts__about {
+        margin: 0 auto;
+        margin-left: 0px;
+    }
+
+    .about__title {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+
+    .about__list ul {
+        margin-bottom: 100px;
+    }
+
+    .about__list ul li {
+        margin: 0 auto;
+        margin-bottom: 25px;
+    }
+
+    .about__list ul li a {
+        font-size: 12px;
+    }
+
+    .footer__link ul li {
+        margin-left: 40px;
+    }
+    
+}

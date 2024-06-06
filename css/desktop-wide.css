@@ -23,6 +23,10 @@
     margin: 0 auto;
 }
 
+.mobile {
+    display: none;
+}
+
 .header {
     font-family: "Montserrat";
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../headerBackground/IMAGE.png");

@@ -116,9 +116,6 @@
     }
 
     .first {
-        border: none;
-        border-radius: 50%;
-        background-color: #B99FEA;
         font-size: 24px;
         padding: 15px;
         padding-left: 25px;
@@ -126,9 +123,6 @@
     }
 
     .second {
-        border: none;
-        border-radius: 50%;
-        background-color: #EBA789;
         font-size: 24px;
         padding: 15px;
         padding-left: 22px;
@@ -136,9 +130,6 @@
     }
 
     .third {
-        border: none;
-        border-radius: 50%;
-        background-color: #96DBC6;
         font-size: 24px;
         padding: 15px;
         padding-left: 22px;

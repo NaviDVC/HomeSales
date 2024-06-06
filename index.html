@@ -9,13 +9,14 @@
     <link rel="stylesheet" href="./css/desktop.css">
     <link rel="stylesheet" href="./css/notebook.css">
     <link rel="stylesheet" href="./css/tablet.css">
+    <link rel="stylesheet" href="./css/mobile.css">
 </head>
 
 <body>
     <div class="wrapper">
         <div class="header">
             <div class="header__wrapper">
-                <div class="text">
+                <div class="text desktop">
                     <ul class="text__nav">
                         <li><a href="#">IT WORKS</a></li>
                         <li><a href="#">WHAT TO EXPECT</a></li>
@@ -27,11 +28,20 @@
                         <li><a href="#">GET MY BONUS OFFER</a></li>
                     </ul>
                 </div>
-                <div class="header__title">
+                <div class="text__nav_mobile mobile">
+                    <ion-icon name="menu-outline"></ion-icon>
+                </div>
+                <div class="header__title desktop">
                     Sell your home without missing <br>
                     out on its future worth
                 </div>
-                <div class="header__text">
+                <div class="header__title_mobile mobile">
+                    Sell your home without missing out on its future worth
+                </div>
+                <div class="header__text desktop">
+                    We're putting more wealth back into the hands of homeowners.
+                </div>
+                <div class="header__text_mobile mobile">
                     We're putting more wealth back into the hands of homeowners.
                 </div>
                 <button class="button__bonus"><a href="#">Get My Bonus Offer</a></button>
@@ -72,9 +82,9 @@
                                 your<br>home. With no showings, no closing costs and lower fees than a
                                 traditional<br>sale, Bonus™ is a faster, easier and smarter way to sell, all while
                                 keeping<br>your home as a long-term investment!</div>
-                                <div class="main__image hidden">
-                                    <img src="./mainImages/house.png" alt="">
-                                </div>
+                            <div class="main__image hidden">
+                                <img src="./mainImages/house.png" alt="">
+                            </div>
                         </div>
                     </div>
                     <div class="main__row">
@@ -127,7 +137,8 @@
                     <div class="footer__comment">"We will continue to benefit from our house<br>without having to
                         physically live in it"</div>
                     <div class="footer__card">
-                        <div class="footer__card_image"><img src="./footerImages//jasonandstormi.png" alt=""></div>Jason & Stormi
+                        <div class="footer__card_image"><img src="./footerImages//jasonandstormi.png" alt=""></div>Jason
+                        & Stormi
                         U.<br>Tucson, AZ • Bonus Members
                     </div>
                 </div>
@@ -210,20 +221,25 @@
                 <div class="footer__underline">
                     <img src="./footerImages//footerLine.png" alt="">
                 </div>
-            <div class="footer__link">
-                <ul>
-                    <li><a href="#"><img src="./footerImages//tiktok.png" alt=""></a></li>
-                    <li><a href="#"><img src="./footerImages//instagram.png" alt=""></a></li>
-                    <li><a href="#"><img src="./footerImages//twitter.png" alt=""></a></li>
-                </ul>
-                <div class="footer__privacy vissible">© 2022 Bonus Inc. | Privacy Policy</div>
+                <div class="footer__link">
+                    <ul>
+                        <li><a href="#"><img src="./footerImages//tiktok.png" alt=""></a></li>
+                        <li><a href="#"><img src="./footerImages//instagram.png" alt=""></a></li>
+                        <li><a href="#"><img src="./footerImages//twitter.png" alt=""></a></li>
+                    </ul>
+                    <div class="footer__privacy vissible">© 2022 Bonus Inc. | Privacy Policy</div>
+                </div>
+
+                <div class="footer__privacy_hidden">© 2022 Bonus Inc. | Privacy Policy</div>
             </div>
-            
-            <div class="footer__privacy_hidden">© 2022 Bonus Inc. | Privacy Policy</div>
         </div>
     </div>
     </div>
-    </div>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
 </body>
 
 </html>
