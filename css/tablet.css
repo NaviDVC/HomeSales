@@ -1,0 +1,224 @@
+@media (max-width: 980px) {
+
+
+    .wrapper {
+        max-width: 970px;
+    }
+
+    .vissible {
+        display: none;
+    }
+
+    .hidden {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .text ul li a {
+        margin-left: 10px;
+        margin-right: 2px;
+    }
+
+    .header__title {
+        font-size: 32px;
+        margin-top: 125px;
+    }
+
+    .button__bonus {
+        margin-left: 115px;
+        margin-top: 15px;
+        border-radius: 100px;
+        padding: 10px 0;
+    }
+
+    .button__bonus:hover {
+        background-color: #7334e8;
+        transition: all 0.3s ease;
+    }
+
+    .button__bonus a {
+        padding: 10px 35px;
+        font-size: 11px;
+        color: white;
+    }
+
+    .button__faq {
+        padding: 10px 55px;
+    }
+
+    .button__faq a {
+        font-size: 11px;
+    }
+
+    .main__row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 65px;
+        margin-bottom: 65px;
+    }
+
+    .main__title_bonus {
+        font-size: 42px;
+        margin-top: 70px;
+        margin: 0 auto;
+    }
+
+    .main__text_bonus {
+        font-size: 14px;
+        padding-top: 20px;
+        margin: 0 auto;
+    }
+
+    .main__image_bonus {
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+
+    .main__title {
+        font-size: 16px;
+        line-height: 36px;
+        margin: 0 auto;
+    }
+
+    .main__text {
+        font-size: 30px;
+        line-height: 46px;
+        letter-spacing: 1px;
+        margin: 0 auto;
+        margin-top: 35px;
+    }
+
+    .main__image {
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+
+    .main__image img {
+        width: 27vw;
+        height: 27vw;
+    }
+
+    .main__expand__btn {
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .main__expand__btn button {
+        font-size: 11px;
+    }
+
+    .main__undertext {
+        font-size: 11px;
+        line-height: 22px;
+        margin: 0 auto;
+        color: #101010;
+    }
+
+    .first {
+        border: none;
+        border-radius: 50%;
+        background-color: #B99FEA;
+        font-size: 24px;
+        padding: 15px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .second {
+        border: none;
+        border-radius: 50%;
+        background-color: #EBA789;
+        font-size: 24px;
+        padding: 15px;
+        padding-left: 22px;
+        padding-right: 22px;
+    }
+
+    .third {
+        border: none;
+        border-radius: 50%;
+        background-color: #96DBC6;
+        font-size: 24px;
+        padding: 15px;
+        padding-left: 22px;
+        padding-right: 21px;
+    }
+
+    .footer__comments {
+        flex-direction: column;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+    .footer__comments__image {
+        margin-top: 20px;
+    }
+
+    .footer__card {
+        justify-content: center;
+    }
+
+    .footer__card_image {
+        margin-right: 15px;
+        margin-top: -10px;
+    }
+
+    .footer__comments_column {
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+
+    .footer__comment {
+        margin-top: 50px;
+        font-size: 24px;
+        color: #E4D8CC;
+        line-height: 32px;
+        letter-spacing: 1px;
+    }
+
+    .forbes {
+        display: flex;
+        justify-content: center;
+        margin-left: -25px;
+        margin-bottom: 125px;
+    }
+
+    .footer__faq__list {
+        margin-bottom: 100px;
+    }
+
+    .footer__faq__image {
+        display: none;
+    }
+
+    .mission__text {
+        font-size: 42px;
+        margin: 0 auto;
+        margin-left: 150px;
+    }
+
+    .footer__underline {
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    .footer__link {
+        justify-content: center;
+    }
+
+    .footer__link ul li {
+        margin-left: 75px;
+        margin-right: 75px;
+    }
+
+    
+
+    .footer__privacy_hidden {
+        display: block;
+        margin: 0 auto;
+        color: #E4D8CC;
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+}

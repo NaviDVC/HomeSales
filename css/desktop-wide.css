@@ -49,6 +49,7 @@
     color: #e4d8cc;
     margin-left: 50px;
     margin-right: 20px;
+    font-size: 11px;
 }
 
 .header__title {
@@ -140,7 +141,6 @@
     margin-left: 150px;
     margin-right: 150px;
 }
-
 .main__text_bonus {
     font-size: 16px;
     margin-top: 15px;
@@ -153,6 +153,16 @@
     margin-left: 150px;
     margin-right: 150px;
 }
+
+.main__image_bonus img {
+    height: 25%vw;
+    width: 30vw;
+}
+
+.hidden {
+    display: none;
+}
+
 
 .main__title {
     font-size: 19px;
@@ -173,6 +183,11 @@
 .main__image {
     margin-left: 150px;
     margin-right: 150px;
+}
+
+.main__image img {
+    width: 27vw;
+    height: 27vw;
 }
 
 .main__expand__btn {
@@ -501,4 +516,8 @@
     margin-left: 400px;
     font-size: 13px;
     color: #e4d8cc;
+}
+
+.footer__privacy_hidden {
+    display: none;
 }

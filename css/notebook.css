@@ -1,145 +1,63 @@
-@media (max-width: 1760px) {
-    
-    .wrapper {
-        max-width: 1700px;
-    }
+@media (max-width: 1360px) {
 
     .header__title {
-        margin-top: 500px;
+        margin-top: 375px;
     }
+
+}
+
+@media (max-width: 1350px) {
+
+    .header__title {
+        margin-top: 355px;
+    }
+
+}
+
+@media (max-width: 1340px) {
 
     .main__title_bonus {
-        margin-left: 75px;
-        margin-right: 75px;
+        font-size: 48px;
+        margin-left: 50px;
+        margin-right: 50px;
     }
-
+    
     .main__text_bonus {
-        font-size: 16px;
-        margin-top: 15px;
-        margin-left: 75px;
-        margin-right: 75px;
-    }
-
-    .main__title {
-        margin-left: 75px;
-        margin-right: 75px;
-    }
-    
-    .main__text {
-        margin-left: 75px;
-        margin-right: 75px;
-    }
-    
-    .main__image {
-        margin-left: 75px;
-        margin-right: 75px;
+        font-size: 12px;
+        margin-left: 50px;
+        margin-right: 50px;
     }
     
     .main__image_bonus {
-        margin-top: 70px;
-        margin-left: 70px;
-        margin-right: 70px;
+        margin-left: 50px;
+        margin-right: 50px;
     }
 
-    .main__expand__btn {
-        margin-left: 75px;
-        margin-right: 75px;
-        margin-bottom: 50px;
-    }
-    
-    .main__undertext {
-        margin-left: 75px;
-        margin-right: 75px;
-    }
-    
-    .first {
-        font-size: 34px;
-        padding: 12px;
-        padding-left: 25px;
-        padding-right: 25px;
-    }
-    
-    .second {
-        font-size: 34px;
-        padding: 12px;
-        padding-left: 25px;
-        padding-right: 25px;
-    }
-    
-    .third {
-        font-size: 34px;
-        padding: 12px;
-        padding-left: 25px;
-        padding-right: 25px;
+}
+
+
+@media (max-width: 1320px) {
+
+    .header__title {
+        margin-top: 335px;
     }
 
-    .footer__comments_column {
-        margin-left: 85px;
-        margin-right: 85px;
-    }
+}
 
-    .mission__title {
-        margin-left: 150px;
+
+@media (max-width: 1300px) {
+
+    .header__title {
+        margin-top: 315px;
     }
 
     .mission__text {
-        margin-left: 150px;
-    }
-    
-    .mission__about {
-        margin-left: 150px;
-    }
-
-    .contacts__title {
         margin-left: 140px;
     }
-
-    .button__bonus__offer {
-        margin-left: 135px;
-    }
-
-    .contacts__row {
-        margin-left: 100px;
-    }
-
-    .footer__faq__title {
-        margin-left: 100px;
-        margin-right: 100px;
-    }
-
-    .footer__faq__list ul {
-        margin-left: 100px;
-        margin-right: 100px;
-    }
-
-    .footer__faq__image {
-        margin-left: 100px;
-        margin-right: 100px;
-    }
-
+/* 
     .footer__faq__image img {
-        width: 25vw;
-        height: 27vw;
-    }
+        height: 200px;
+        width: 200px;
+    } */
 
-    .about__image {
-        margin-left: 150px;
-    }
-
-    .smile_image {
-        margin-left: 0px;
-    }
-
-    .about__text {
-        margin-left: 150px;
-    }
-
-
-    .footer__link ul li {
-        margin-left: 200px;
-    }
-
-    .footer__privacy {
-        margin-left: 270px;
-    }
 }
