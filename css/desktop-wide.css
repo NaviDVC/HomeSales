@@ -25,7 +25,7 @@
 
 .header {
     font-family: "Montserrat";
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/BonusSite/headerBackground/IMAGE.png");
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../headerBackground/IMAGE.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
@@ -315,7 +315,7 @@
 }
 
 .footer__mission {
-    background-image: url("/BonusSite/footerBackground/missionbg.png");
+    background-image: url("../footerBackground/missionbg.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -349,7 +349,7 @@
 }
 
 .footer__info {
-    background-image: url("/BonusSite/footerBackground/footerbg.png");
+    background-image: url("../footerBackground/footerbg.png");
     display: flex;
     flex-direction: column;
 }
