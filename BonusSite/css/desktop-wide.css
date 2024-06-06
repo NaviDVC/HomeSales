@@ -1,0 +1,504 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("../fonts/INTER-VARIABLEFONT_SLNT\,WGHT.TTF");
+}
+
+* {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    margin: 0;
+    padding: 0;
+    font-family: "Inter";
+    font-weight: 400;
+}
+
+.wrapper {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.header {
+    font-family: "Montserrat";
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/BonusSite/headerBackground/IMAGE.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-size: 100%;
+}
+
+.text {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 25px;
+}
+
+.text ul li {
+    color: #e4d8cc;
+    display: inline-block;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.text ul li a {
+    color: #e4d8cc;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+
+.header__title {
+    max-width: 1920px;
+    margin: 0 auto;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+    font-size: 57px;
+    margin-top: 35%;
+    margin-left: 115px;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    line-height: 61px;
+    color: #E4D8CC;
+}
+
+.header__text {
+    margin-top: 42px;
+    font-size: 18px;
+    margin-left: 115px;
+    margin-bottom: 30px;
+    color: #c3bab1;
+}
+
+.button__bonus {
+    margin-left: 115px;
+    margin-top: 15px;
+    border-radius: 100px;
+    padding: 20px 0;
+    background-color: #7837F3;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.button__bonus:hover {
+    background-color: #7334e8;
+    transition: all 0.3s ease;
+}
+
+.button__bonus a {
+    padding: 20px 75px;
+    font-size: 16px;
+    color: white;
+}
+
+.button__faq {
+    border-radius: 100px;
+    padding: 20px 75px;
+    background-color: #E4D8CC80;
+    border: 0;
+    margin-left: 10px;
+    margin-bottom: 120px;
+}
+
+.button__faq a {
+    font-size: 16px;
+    color: white;
+}
+
+.main__wrapper {
+    display: flex;
+    justify-content: center;
+    background-color: #E7DFD8;
+}
+
+.main__column {
+    display: flex;
+    flex-direction: column;
+}
+
+.main__row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+.main__row_column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main__title_bonus {
+    font-size: 54px;
+    margin-top: 70px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.main__text_bonus {
+    font-size: 16px;
+    margin-top: 15px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.main__image_bonus {
+    margin-top: 70px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.main__title {
+    font-size: 19px;
+    line-height: 36px;
+    margin-left: 140px;
+    margin-right: 150px;
+}
+
+.main__text {
+    font-size: 35px;
+    line-height: 46px;
+    letter-spacing: 1px;
+    margin-top: 35px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.main__image {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.main__expand__btn {
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 50px;
+}
+
+.main__expand__btn button {
+    text-transform: uppercase;
+    margin-top: 10px;
+    padding-bottom: 5px;
+    border: none;
+    border-bottom: #101010 1px solid;
+    background-color: #E7DFD8;
+    cursor: pointer;
+}
+
+.main__undertext {
+    font-size: 14px;
+    line-height: 22px;
+    margin-left: 150px;
+    margin-right: 150px;
+    color: #101010;
+}
+
+.first {
+    border: none;
+    border-radius: 50%;
+    background-color: #B99FEA;
+    font-size: 38px;
+    padding: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.second {
+    border: none;
+    border-radius: 50%;
+    background-color: #EBA789;
+    font-size: 38px;
+    padding: 20px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.third {
+    border: none;
+    border-radius: 50%;
+    background-color: #96DBC6;
+    font-size: 38px;
+    padding: 20px;
+    padding-left: 32px;
+    padding-right: 30px;
+}
+
+.footer__comments {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin-top: 115px;
+}
+
+.footer__card {
+    display: flex;
+    flex-direction: row;
+    color: #E4D8CC;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    text-align: left;
+    margin-top: 75px;
+    margin-left: 75px;
+}
+
+.footer__card_image {
+    margin-right: 15px;
+    margin-top: -10px;
+}
+
+.footer__comments_column {
+    margin-left: 225px;
+    margin-right: 225px;
+}
+
+.footer__comment {
+    margin-top: 50px;
+    font-size: 24px;
+    color: #E4D8CC;
+    line-height: 32px;
+    letter-spacing: 1px;
+}
+
+.forbes {
+    display: flex;
+    justify-content: center;
+    margin-left: -25px;
+    margin-bottom: 125px;
+}
+
+.footer__faq {
+    background-color: #101010;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer__faq__title {
+    color: white;
+    font-size: 36px;
+    letter-spacing: 1px;
+    line-height: 46px;
+    padding-top: 120px;
+    margin-bottom: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.footer__faq__list ul {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.footer__faq__list ul li {
+    margin-bottom: 50px;
+}
+
+.footer__faq__list ul li a {
+    color: #B99FEA;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.footer__faq__image {
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 100px;
+    margin-bottom: 70px;
+}
+
+.footer__mission {
+    background-image: url("/BonusSite/footerBackground/missionbg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mission__title {
+    padding-top: 140px;
+    margin-left: 240px;
+    color: #C3BAB1;
+    font-size: 15px;
+    line-height: 16px;
+}
+
+.mission__text {
+    color: #E7DFD8;
+    font-size: 48px;
+    line-height: 55px;
+    margin-left: 240px;
+    margin-top: 15px;
+}
+
+.mission__about {
+    color: #E4D8CC;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    background-color: none;
+    margin-left: 240px;
+    margin-top: 25px;
+    text-decoration: underline;
+    padding-bottom: 100px;
+}
+
+.footer__info {
+    background-image: url("/BonusSite/footerBackground/footerbg.png");
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__contacts {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2px;
+    padding-top: 80px;
+}
+
+.footer__contacts_column {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts__title {
+    color: #E4D8CC;
+    font-size: 23px;
+    line-height: 24px;
+    margin-left: 240px;
+    margin-bottom: 30px;
+}
+
+.button__bonus__offer {
+    margin-top: 15px;
+    border-radius: 100px;
+    padding: 20px 0;
+    margin-left: 235px;
+    background-color: #7837F3;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.button__bonus__offer:hover {
+    background-color: #7334e8;
+    transition: all 0.3s ease;
+}
+
+.button__bonus__offer a {
+    padding: 20px 75px;
+    font-size: 16px;
+    color: white;
+}
+
+.questions {
+    margin-left: 55px;
+}
+
+.button__mail {
+    margin-left: 45px;
+    border-radius: 100px;
+    padding: 20px 45px;
+    background-color: #101010;
+    border: 1px solid #E4D8CC;
+    margin-top: 15px;
+    margin-bottom: 120px;
+}
+
+.button__mail a {
+    font-size: 16px;
+    line-height: 24px;
+    color: #E4D8CC;
+    letter-spacing: 1px;
+}
+
+.contacts__row {
+    display: flex;
+    flex-direction: row;
+    margin-left: 210px;
+}
+
+.contacts__about {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.about__title {
+    color: #E4D8CC;
+    font-size: 20px;
+    line-height: 16px;
+    margin-bottom: 50px;
+}
+
+.about__list ul {
+    margin-bottom: 135px;
+}
+
+.about__list ul li {
+    margin-bottom: 50px;
+}
+
+.about__list ul li a {
+   color: #E4D8CC; 
+   font-size: 16px;
+}
+
+.smile_image {
+    margin-left: 220px;
+    margin-top: 95px;
+}
+
+.smile_image img {
+    width: 70px;
+    height: 70px;
+}
+
+.about__image {
+    margin-left: 300px;
+}
+
+.about__text {
+    margin-left: 300px;
+    color: #E4D8CC;
+    font-size: 14px;
+    line-height: 28px;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+.footer__underline {
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.footer__underline img {
+    width: 75vw;
+    height: 2px;
+    color: #E4D8CC29;
+}
+
+.footer__link {
+    display: flex;
+
+}
+
+.footer__link ul {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.footer__link ul li {
+    margin-left: 300px;
+}
+
+.footer__privacy {
+    margin-left: 400px;
+    font-size: 13px;
+    color: #e4d8cc;
+}
